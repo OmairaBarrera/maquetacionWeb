@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'OldEnglishFive';
     src: url(/fonts/OldEnglishFive.ttf);
@@ -10,17 +11,14 @@
     font-family: 'SabatonsScriptDemo';
     src: url(/fonts/SabatonsScriptDEMO.ttf);
 }
+.img-mujer{
+    object-fit: cover;
+    width:100%;
+}
+.img-niños{
+    background-color: bisque;
+}
 
-body{
-    background-color: black;
-    width: calc(100vh - 60px);
-}
-header{
-    background-color: aqua;
-    width: 100%;
-    display: inline-block;
-    font-family: "OldEnglishFive";
-}
 h1{
     display: inline;
     font-size: 45px;
@@ -29,12 +27,14 @@ h2{
     display: inline;
     font-size: 23px;
 }
-main{
-    background-color: yellow;
-    width: 100%;
-    height:800px;
-    position: relative;
-    display: inline-block;
+h3{
+    display: inline;
+    font-family: "NimbusRomNo9L-Med";
+    font-size: 25px;
+}
+h4{
+    font-family: "OldEnglishFive";
+    font-size: 14px;
 }
 h5{
     font-family: "NimbusRomNo9L-Med";
@@ -52,35 +52,54 @@ p{
     text-align: justify;
     padding: 2px;
 }
-section{
+
+body{
+    background-color: black;
+    width: calc(100vh - 60px);
+    margin:auto;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    display: inline-block;
+    font-family: "OldEnglishFive";
+}
+main{
+    background-color: yellow;
+    width: 100%;
+    height:700px;
+    position: relative;
+    display: inline-block;
+}
+.section1{
     background-color: brown;
     width: 50%;
-    height: 100%;
     display: inline-block;
     position: absolute;
 }
-h4{
-    font-family: "OldEnglishFive";
-    font-size: 14px;
+.section2{
+    background-color:aliceblue;
+    width: 55%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
-aside{
+.aside1{
     background-color: darkgreen;
     width: 45%;
-    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.aside2{
+    background-color: darkgreen;
+    width: 40%;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-img{
-    object-fit: cover;
-    width:100%;
-}
 footer{
     background-color: darkslategrey;
     width: 100%;
-}
-h3{
-    display: inline;
-    font-family: "NimbusRomNo9L-Med";
-    font-size: 25px;
 }
