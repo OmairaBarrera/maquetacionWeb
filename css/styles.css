@@ -1,5 +1,86 @@
-.ini{
+@font-face {
+    font-family: 'OldEnglishFive';
+    src: url(/fonts/OldEnglishFive.ttf);
+}
+@font-face {
+    font-family: 'NimbusRomNo9L-Med';
+    src: url(/fonts/NimbusRomNo9L-Med.otf);
+}
+@font-face {
+    font-family: 'SabatonsScriptDemo';
+    src: url(/fonts/SabatonsScriptDEMO.ttf);
+}
+
+body{
+    background-color: black;
+    width: calc(100vh - 60px);
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    display: inline-block;
+    font-family: "OldEnglishFive";
+}
+h1{
     display: inline;
-    width: 500px;
-    height: 500px;
+    font-size: 45px;
+}
+h2{
+    display: inline;
+    font-size: 23px;
+}
+main{
+    background-color: yellow;
+    width: 100%;
+    height:800px;
+    position: relative;
+    display: inline-block;
+}
+h5{
+    font-family: "NimbusRomNo9L-Med";
+    display: inline;
+    font-size: xx-large;
+}
+h6{
+    font-family: "SabatonsScriptDemo";
+    display: inline;
+    font-size: 50px;
+}
+p{
+    font-family: "NimbusRomNo9L-Med";
+    font-size: 12px;
+    text-align: justify;
+    padding: 2px;
+}
+section{
+    background-color: brown;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+h4{
+    font-family: "OldEnglishFive";
+    font-size: 14px;
+}
+aside{
+    background-color: darkgreen;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+img{
+    object-fit: cover;
+    width:100%;
+}
+footer{
+    background-color: darkslategrey;
+    width: 100%;
+}
+h3{
+    display: inline;
+    font-family: "NimbusRomNo9L-Med";
+    font-size: 25px;
 }
