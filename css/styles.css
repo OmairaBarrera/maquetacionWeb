@@ -46,10 +46,11 @@ h2{
 h3{
     display: inline-block;
     position:absolute;
+    text-align: center;
     left: 0;
     right: 0;
     top: 0;
-    margin: 0;
+    margin: 31px;
     font-family: "NimbusRomNo9L-Med";
     font-size: 47px;
 }
